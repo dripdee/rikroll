@@ -1,0 +1,31 @@
+#NAME{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: right;
+}
+
+
+.image {
+    animation: wiggle 2s infinite;
+  }
+  
+  @keyframes wiggle {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(5deg);
+    }
+    40% {
+      transform: rotate(-5deg);
+    }
+    60% {
+      transform: rotate(5deg);
+    }
+    80% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
